@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3618142362",
+    "firebase_url": "https://iotsmarthome-309fa.firebaseio.com",
+    "project_id": "iotsmarthome-309fa",
+    "storage_bucket": "iotsmarthome-309fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3618142362:android:3b5ed23a17d2fe1e",
+        "android_client_info": {
+          "package_name": "com.example.shemeem.iotsmarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3618142362-ok78ug194hjht95e1e3ek0a6bfbdt442.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shemeem.iotsmarthome",
+            "certificate_hash": "1b5ef4edec1ee3dc38ff8368ddd904d48f3a4ce6"
+          }
+        },
+        {
+          "client_id": "3618142362-ssamur978d0r6r4r9co7gush9vgqir5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5kkoQtsk5wX-g7F4xCJfrJ8IAIUwM93A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3618142362-ssamur978d0r6r4r9co7gush9vgqir5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
