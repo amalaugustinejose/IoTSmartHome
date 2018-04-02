@@ -36,7 +36,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser() != null) {
             finish();
-            startActivity(new Intent(getApplicationContext(), ControlPanelActivity.class));
+            startActivity(new Intent(getApplicationContext(), ControlPanel2.class));
         }
 
         buttonRegister = (Button) findViewById(R.id.bt_registerUser);
@@ -71,7 +71,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                         }
                         if (task.isSuccessful()) {
                             finish();
-                            startActivity(new Intent(getApplicationContext(), ControlPanelActivity.class));
+                            startActivity(new Intent(getApplicationContext(), ControlPanel2.class));
                         } else {
                             Toast.makeText(MainActivity.this, "Couls not register. Please try again", Toast.LENGTH_SHORT).show();
                         }

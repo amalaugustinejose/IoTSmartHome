@@ -33,7 +33,7 @@ public class LogInActivity extends Activity implements View.OnClickListener {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser() != null) {
             finish();
-            startActivity(new Intent(getApplicationContext(), ControlPanelActivity.class));
+            startActivity(new Intent(getApplicationContext(), ControlPanel2.class));
         }
 
         buttonSignIn = (Button) findViewById(R.id.bt_loginUser);
@@ -62,7 +62,7 @@ public class LogInActivity extends Activity implements View.OnClickListener {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             finish();
-                            startActivity(new Intent(getApplicationContext(), ControlPanelActivity.class));
+                            startActivity(new Intent(getApplicationContext(), ControlPanel2.class));
                         } else {
                             Toast.makeText(LogInActivity.this, "Login Denied", Toast.LENGTH_SHORT).show();
                         }
