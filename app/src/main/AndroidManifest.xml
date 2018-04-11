@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ControlPanel2" />
-        <activity android:name=".PowerConumption"></activity>
+        <activity android:name=".PowerConsumption"></activity>
     </application>
 
 </manifest>

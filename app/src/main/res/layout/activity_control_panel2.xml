@@ -358,22 +358,30 @@
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/btMasterOn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
-                    android:layout_weight="1"
-                    android:text="Master on" />
+                <!--<Button-->
+                    <!--android:id="@+id/btMasterOn"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="8dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Master on" />-->
 
-                <Button
-                    android:id="@+id/btMasterOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_weight="1"
-                    android:text="Master Off" />
+                <!--<Button-->
+                    <!--android:id="@+id/btMasterOff"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Master Off" />-->
             </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_powerConsumption"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Power Consumption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/bt_logOut"
@@ -382,6 +390,8 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="Log Out" />
+
+
         </LinearLayout>
 
     </ScrollView>

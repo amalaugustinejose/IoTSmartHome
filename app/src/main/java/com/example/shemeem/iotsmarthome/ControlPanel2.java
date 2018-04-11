@@ -29,6 +29,7 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
 
     private TextView textViewUserEmail;
     private Button buttonLogout;
+    private Button buttonPowerConsumption;
 
     private DatabaseReference databaseReference;
     private DatabaseReference userReference;
@@ -58,8 +59,8 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
     private TextView tv9;
     private TextView tv10;
 
-    private Button masterOn;
-    private Button masterOff;
+//    private Button masterOn;
+//    private Button masterOff;
 
     String[] Buttons = {"b1", "b2", "b3", "b4", "b5", "b6"};
 
@@ -151,11 +152,14 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
 //        tv10 = (TextView) findViewById(R.id.tv10);
 
 
-        masterOn = (Button) findViewById(R.id.btMasterOn);
-        masterOff = (Button) findViewById(R.id.btMasterOff);
+//        masterOn = (Button) findViewById(R.id.btMasterOn);
+//        masterOff = (Button) findViewById(R.id.btMasterOff);
 
         buttonLogout = (Button) findViewById(R.id.bt_logOut);
         buttonLogout.setOnClickListener(this);
+
+        buttonPowerConsumption = (Button) findViewById(R.id.bt_powerConsumption);
+        buttonPowerConsumption.setOnClickListener(this);
 
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
@@ -168,8 +172,8 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
 //        button9.setOnClickListener(this);
 //        button10.setOnClickListener(this);
 
-        masterOn.setOnClickListener(this);
-        masterOff.setOnClickListener(this);
+//        masterOn.setOnClickListener(this);
+//        masterOff.setOnClickListener(this);
 
         bslocal = new buttonState(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
@@ -289,15 +293,15 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
             Log.e("TestLogSaveData2Try", "When snapshot not empty");
             Log.e("TestLogSaveData2Try", "Hello " + ud.getB1t());
 
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-            String sdf;
-            sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
-            Log.e("Time", "Hello " + sdf);
-            double hour = dateFormat.parse(sdf).getTime()/1000.0/60/60;
-            sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
-            double hour2 = dateFormat.parse(sdf).getTime()/1000.0/60/60;
-            Log.e("Time", "Hello " + sdf);
-            Log.e("Time", "Diff " + String.valueOf(hour2 - hour));
+//            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+//            String sdf;
+//            sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+//            Log.e("Time", "Hello " + sdf);
+//            double hour = dateFormat.parse(sdf).getTime()/1000.0/60/60;
+//            sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+//            double hour2 = dateFormat.parse(sdf).getTime()/1000.0/60/60;
+//            Log.e("Time", "Hello " + sdf);
+//            Log.e("Time", "Diff " + String.valueOf(hour2 - hour));
 
 
 //            setButtonStatus(bs);
@@ -577,7 +581,7 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
                 }
             }
         }
-        
+
         updateUsageDetails(udlocal);
     }
 
@@ -593,6 +597,9 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
+        if (v == buttonPowerConsumption) {
+            startActivity(new Intent(this, PowerConsumption.class));
+        }
         if (v == buttonLogout) {
             Log.d("saveButtonState", "logout pressed");
             mAuth.signOut();
@@ -636,18 +643,18 @@ public class ControlPanel2 extends Activity implements View.OnClickListener {
 //        if (v == button10) {
 //            saveButtonState("b10");
 //        }
-        if (v == masterOn) {
-            saveButtonState("masterOn");
-//            for (int i = 0; i < 6; i++) {
-//                saveUsageDetails(Buttons[i]);
-//            }
-        }
-        if (v == masterOff) {
-            saveButtonState("masterOff");
-//            for (int i = 0; i < 6; i++) {
-//                saveUsageDetails(Buttons[i]);
-//            }
-        }
+//        if (v == masterOn) {
+//            saveButtonState("masterOn");
+////            for (int i = 0; i < 6; i++) {
+////                saveUsageDetails(Buttons[i]);
+////            }
+//        }
+//        if (v == masterOff) {
+//            saveButtonState("masterOff");
+////            for (int i = 0; i < 6; i++) {
+////                saveUsageDetails(Buttons[i]);
+////            }
+//        }
     }
 
     public void onBackPressed() {

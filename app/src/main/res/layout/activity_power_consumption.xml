@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shemeem.iotsmarthome.PowerConsumption">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="Power Consumption"
+                android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 1"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 2"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 3"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 4"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 5"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Device 6"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <TextView
+                    android:id="@+id/tv_d6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Watts"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_weight="1"
+                    android:text="Tota Usage : "
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+                <TextView
+                    android:id="@+id/tv_totalUsage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Title" />/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
