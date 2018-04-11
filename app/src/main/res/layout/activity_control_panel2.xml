@@ -211,130 +211,130 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <LinearLayout
+                <!--<LinearLayout-->
 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:orientation="vertical">
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginLeft="24dp"-->
+                    <!--android:layout_marginRight="24dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:orientation="vertical">-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent">-->
 
-                        <TextView
-                            android:id="@+id/tv7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="1"
-                            android:background="#F44336"
-                            android:text="ON"
-                            android:textAlignment="center" />
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv7"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:background="#F44336"-->
+                            <!--android:text="ON"-->
+                            <!--android:textAlignment="center" />-->
 
-                        <TextView
-                            android:id="@+id/tv8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="1"
-                            android:background="#4CAF50"
-                            android:text="OFF"
-                            android:textAlignment="center" />
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv8"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:background="#4CAF50"-->
+                            <!--android:text="OFF"-->
+                            <!--android:textAlignment="center" />-->
 
-                    </LinearLayout>
+                    <!--</LinearLayout>-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:orientation="horizontal">-->
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent">-->
 
-                            <Button
-                                android:id="@+id/bt7"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginRight="8dp"
-                                android:layout_weight="1"
-                                android:text="BT7 - Toggle" />
+                            <!--<Button-->
+                                <!--android:id="@+id/bt7"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_marginRight="8dp"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:text="BT7 - Toggle" />-->
 
-                            <Button
-                                android:id="@+id/bt8"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="8dp"
-                                android:layout_weight="1"
-                                android:text="BT8 - Toggle" />
+                            <!--<Button-->
+                                <!--android:id="@+id/bt8"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_marginLeft="8dp"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:text="BT8 - Toggle" />-->
 
-                        </LinearLayout>
+                        <!--</LinearLayout>-->
 
-                    </LinearLayout>
-                </LinearLayout>
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:orientation="vertical">
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginLeft="24dp"-->
+                    <!--android:layout_marginRight="24dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:orientation="vertical">-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent">-->
 
-                        <TextView
-                            android:id="@+id/tv9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="1"
-                            android:background="#F44336"
-                            android:text="ON"
-                            android:textAlignment="center" />
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv9"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:background="#F44336"-->
+                            <!--android:text="ON"-->
+                            <!--android:textAlignment="center" />-->
 
-                        <TextView
-                            android:id="@+id/tv10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="1"
-                            android:background="#4CAF50"
-                            android:text="OFF"
-                            android:textAlignment="center" />
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv10"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:background="#4CAF50"-->
+                            <!--android:text="OFF"-->
+                            <!--android:textAlignment="center" />-->
 
-                    </LinearLayout>
+                    <!--</LinearLayout>-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:orientation="horizontal">-->
 
-                        <Button
-                            android:id="@+id/bt9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="1"
-                            android:text="BT9 - Toggle" />
+                        <!--<Button-->
+                            <!--android:id="@+id/bt9"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="BT9 - Toggle" />-->
 
-                        <Button
-                            android:id="@+id/bt10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_weight="1"
-                            android:text="BT10 - Toggle" />
+                        <!--<Button-->
+                            <!--android:id="@+id/bt10"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:text="BT10 - Toggle" />-->
 
-                    </LinearLayout>
-                </LinearLayout>
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
 
             </LinearLayout>
 
